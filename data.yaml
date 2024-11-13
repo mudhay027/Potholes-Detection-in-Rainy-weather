@@ -1,0 +1,13 @@
+train: C:\Users\DELL\AppData\Local\Programs\Python\Python310\Tech\Data science\CAI Intern\Potholes detction in Rainy condition\Potholes detection in rainy yolov8 Dataset\train
+val: C:\Users\DELL\AppData\Local\Programs\Python\Python310\Tech\Data science\CAI Intern\Potholes detction in Rainy condition\Potholes detection in rainy yolov8 Dataset\valid
+test: ../test/images
+
+nc: 3
+names: ['PotholeDetectionYOLOv8 Project - v1 2024-04-09 1-16pm', 'Potholes', 'pothole']
+
+roboflow:
+  workspace: potholes-detection-in-rainy-condition
+  project: potholes-detection-in-rainy
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/potholes-detection-in-rainy-condition/potholes-detection-in-rainy/dataset/4
